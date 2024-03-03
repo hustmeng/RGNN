@@ -16,7 +16,7 @@ To facilitate the reproduction of our expremental results, the graph dataset is 
 
 The PyTorch environment for running the code can be referenced from DeepH.
 
-Data set is available at https://figshare.com/account/articles/25330930. "Graph-npz-graphene-5l-6.0r0mn.pkl" is the graph data for training RGNN. "test" is for evaluating RGNN.
+Data set is available at (https://figshare.com/articles/dataset/Efficient_modelling_of_ionic_and_electronic_interactions_by_resistive_memory-based_reservoir_graph_neural_network/25330930). "Graph-npz-graphene-5l-6.0r0mn.pkl" is the graph data for training RGNN. "test" is for evaluating RGNN.
 
 Examples:
 
