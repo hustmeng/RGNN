@@ -1,5 +1,7 @@
 # RGNN
-Resistive memory-based reservoir graph neural network simulater. (The current version is for reviewers only and will continue to be revised before publication. If there is any problem or improper, please point out, thank you!)
+Resistive memory-based reservoir graph neural network simulater.
+
+(The current version is for reviewers only and will continue to be revised before publication. If there is any problem or improper, please point out, thank you!)
 
 
 References:
