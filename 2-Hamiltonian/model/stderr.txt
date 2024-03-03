@@ -1,0 +1,2 @@
+/home/mengxu/anaconda3/envs/deeph/lib/python3.9/site-packages/torch/package/package_exporter.py:925: UserWarning: TypedStorage is deprecated. It will be removed in the future and UntypedStorage will be the only storage class. This should only matter to you if you are using storages directly.  To access UntypedStorage directly, use tensor.untyped_storage() instead of tensor.storage()
+  storage_type_str = obj.pickle_storage_type()
