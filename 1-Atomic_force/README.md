@@ -20,6 +20,7 @@ The PyTorch environment for running the code can be referenced from GNNFF.
 
 To facilitate the reproduction of our expremental results, the graph dataset is transformed from the AIMD results of amorphous LiPO.
 
+Dataset "graph_atomic_force.pkl" is available at https://figshare.com/account/articles/25330930.
 
 Example: (Please set the graphpath, conductance_path, checkpoint_path and modelpath in the train.json and eval.json)
 
