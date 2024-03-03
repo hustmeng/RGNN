@@ -1,0 +1,37 @@
+{
+    "batch_size": 2,
+    "checkpoint_interval": 1,
+    "cuda": true,
+    "datapath": "db/outcar.db",
+    "graphpath": "/home/mxu/gnnff/graph.pkl",
+    "conductance_path": "/home/mxu/AI4S/1-Atomic_force/input/Conductance.pkl",
+    "keep_n_checkpoints": 3,
+    "log_every_n_epochs": 1,
+    "max_epochs": 5000,
+    "max_steps": null,
+    "mode": "train",
+    "modelpath": "/home/mxu/AI4S/1-Atomic_force/input",
+    "n_epochs": 500,
+    "parallel": false,
+    "seed": 1907679005,
+    "split": [
+        50000,
+        5000
+    ],
+
+    "cutoff": 3.8,
+    "gaussian_filter_end": null,
+    "lr": 0.0005,
+    "lr_decay": 0.8,
+    "lr_min": 1e-06,
+    "lr_patience": 25,
+    "n_edge_feature": 18,
+    "n_message_passing": 3,
+    "n_node_feature": 18,
+    "n_output_layers": 2,
+    "predict_property": {"forces": "forces"},
+    "regularization": null,
+    "regularization_lambda": 0.0,
+    "trainable_gaussian": true,
+    "share_weights": false
+}
