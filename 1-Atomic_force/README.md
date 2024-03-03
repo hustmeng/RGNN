@@ -9,9 +9,9 @@ https://github.com/materialsvirtuallab/matgl.git
 
 4. Musaelian, A. et al. Learning local equivariant representations for large-scale atomistic dynamics. Nat. Commun. 14, 579 (2023).
 
-This code is extended from https://github.com/ken2403/gnnff.git, which has the MIT License. 
+**This code is extended from https://github.com/ken2403/gnnff.git, which has the MIT License.**
 
-Thanks to the original authors for their generous sharing. If you need to use the code, please refer to the original version of the code and literature.
+**Thanks to the original authors for their generous sharing. If you need to use the code, please refer to the original version of the code and literature.**
  
 
 We adopted the reservoir MP layers to update the node and edge embeddings, which could take advantage of the programming stochasticity of resistive memory. At the same time, we provided conductivity data from resistive memory chips, which can be used to implement random weights for reservoir MP layers, thereby facilitating the training and validation process of the RGNN model. In accordance with the characteristics of hybrid analogue-digital systems, we added a quantization module to convert analog data into multi-bit binary vectors. Moreover, based on the conductance fluctuations of resistive memory chips, we set corresponding Gaussian noise, which was added to the random weights of reservoir MP layers for testing. The code provided here offers a comprehensive resistance memory-based simulator, where the multibit vector-matrix multiplication of reservoir MP layers can be implemented using resistive memory chips. 
