@@ -1,7 +1,7 @@
 # RGNN
 Resistive memory-based reservoir graph neural network simulater.
 
-(The current version is for reviewers only and will continue to be revised before publication. If there is any problem or improper, please point out, thank you!)
+(The current version is for reviewers only, and the article will be further revised and improved before publication. If you have any questions or disputes, or find any issues with the code, please do not hesitate to inform the author (mengxu@hku.hk). Thank you very much!)
 
 
 References:
