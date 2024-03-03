@@ -24,4 +24,6 @@ Hamiltonian: We have provided a simple way to train and evaluate the RGNN. You c
 
 Wavefunction: We have provided a simple way to train and evaluate the RGNN. You can configure the JAX environment by referring to the requirements in Reference 3 (Ferminet). Our experiment is based on the H2 molecule.
 
+**More details are in each task directory.**
+
 Thanks to the original authors for their generous sharing. If you need to use the code, please refer to the original version of the code and literature.
