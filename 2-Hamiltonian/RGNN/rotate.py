@@ -14,7 +14,7 @@ import h5py
 import torch
 from e3nn.o3 import Irrep, Irreps, matrix_to_angles
 
-from deeph import load_orbital_types
+from RGNN import load_orbital_types
 
 dtype_dict = {
     np.float32: (torch.float32, torch.float32, torch.complex64),
