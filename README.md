@@ -26,7 +26,7 @@ In accordance with the characteristics of hybrid analogue-digital systems, we ad
 
 The code provided here offers a comprehensive resistance memory-based simulator, where the multibit vector-matrix multiplication of reservoir MP layers can be implemented using resistive memory chips.
 
-Data set is available at https://figshare.com/articles/dataset/Efficient_modelling_of_ionic_and_electronic_interactions_by_resistive_memory-based_reservoir_graph_neural_network/25330930
+Data set is available at https://figshare.com/articles/dataset/Efficient_modelling_of_ionic_and_electronic_interactions_by_resistive_memory-based_reservoir_graph_neural_network/25330930 and https://doi.org/10.5281/zenodo.10774321.
 
 Atomic force: We have provided a simple way to train the RGNN and evaluate the model. You can configure the PyTorch environment by referring to the requirements in Reference 1 (GNNFF). We have prepared the graph data from the amorphous LiPO and you can start the model training directly according to the guidance. Finally, the trained model and the ASE software package can be used to simulate molecular dynamics.
 
