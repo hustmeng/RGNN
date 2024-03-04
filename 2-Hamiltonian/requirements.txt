@@ -1,0 +1,14 @@
+CUDA 12.3
+python = 3.10.13
+
+
+NumPy = 1.25.2
+SciPy
+PyTorch = 2.1.1
+PyTorch Geometric = 2.4.0
+e3nn = 0.5.1
+pymatgen= 2023.11.12
+h5py = 3.10.0
+TensorBoard =  2.16.2
+pathos = 0.3.2
+psutil = 5.9.7
