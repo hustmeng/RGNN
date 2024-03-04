@@ -1,3 +1,6 @@
+References:
+
+C.W. Park, M. Kornbluth, J. Vandermause, C. Wolverton, B. Kozinsky, J.P. Mailoa, Accurate and scalable graph neural network force field and molecular dynamics with direct force architecture, npj Comput. Mater. 7(1) (2021) 73. https://github.com/ken2403/gnnff.git
 
 python==3.8.5
 
