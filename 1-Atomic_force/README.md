@@ -16,7 +16,7 @@ https://github.com/materialsvirtuallab/matgl.git
 
 We adopted the reservoir MP layers to update the node and edge embeddings, which could take advantage of the programming stochasticity of resistive memory. At the same time, we provided conductivity data from resistive memory chips, which can be used to implement random weights for reservoir MP layers, thereby facilitating the training and validation process of the RGNN model. In accordance with the characteristics of hybrid analogue-digital systems, we added a quantization module to convert analog data into multi-bit binary vectors. Moreover, based on the conductance fluctuations of resistive memory chips, we set corresponding Gaussian noise, which was added to the random weights of reservoir MP layers for testing. The code provided here offers a comprehensive resistance memory-based simulator, where the multibit vector-matrix multiplication of reservoir MP layers can be implemented using resistive memory chips. 
 
-The PyTorch environment for running the code can be referenced from GNNFF. 
+**Reruirements**: The PyTorch environment for running the code can be referenced from GNNFF. 
 
 To facilitate the reproduction of our expremental results, the graph dataset is transformed from the AIMD results of amorphous LiPO.
 
