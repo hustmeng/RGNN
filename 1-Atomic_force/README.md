@@ -20,7 +20,7 @@ The PyTorch environment for running the code can be referenced from GNNFF.
 
 To facilitate the reproduction of our expremental results, the graph dataset is transformed from the AIMD results of amorphous LiPO.
 
-Dataset "graph_atomic_force.pkl" is available at https://figshare.com/articles/dataset/Efficient_modelling_of_ionic_and_electronic_interactions_by_resistive_memory-based_reservoir_graph_neural_network/25330930
+Dataset "graph_atomic_force.pkl" is available at https://figshare.com/articles/dataset/Efficient_modelling_of_ionic_and_electronic_interactions_by_resistive_memory-based_reservoir_graph_neural_network/25330930 and https://doi.org/10.5281/zenodo.10774321
 
 Example: (Please set the graphpath, conductance_path, checkpoint_path and modelpath in the train.json and eval.json)
 
