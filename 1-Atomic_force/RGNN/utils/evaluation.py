@@ -85,9 +85,9 @@ def evaluate_dataset(metrics, model, loader, device, conductance):
     color = []
     i = 0
     for batch in loader:
-        i = i + 1
-        if i > 100:
-          break
+        #i = i + 1
+        #if i > 100:
+        #  break
         atom_num = batch['_atomic_numbers'].view(-1)
         batch = {k: v.to(device) for k, v in batch.items()}
         result = model(batch, conductance)
