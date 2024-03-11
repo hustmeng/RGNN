@@ -58,9 +58,9 @@ def evaluate(
         pre_1 = pre[c == 8]
         pre_2 = pre[c == 15]
 
-        f_mae_0 = np.sum(abs(pre_0 - dft_0)) / np.sum(abs(dft_0))
-        f_mae_1 = np.sum(abs(pre_1 - dft_1)) / np.sum(abs(dft_1))
-        f_mae_2 = np.sum(abs(pre_2 - dft_2)) / np.sum(abs(dft_2))
+        f_mae_0 = np.sum(abs(pre_0 - dft_0)) / np.sum(abs(dft_0)) *100
+        f_mae_1 = np.sum(abs(pre_1 - dft_1)) / np.sum(abs(dft_1))  *100 
+        f_mae_2 = np.sum(abs(pre_2 - dft_2)) / np.sum(abs(dft_2))  *100
         print("MAE (%)", f_mae_0, f_mae_1, f_mae_2)
         
         
