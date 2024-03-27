@@ -24,7 +24,7 @@ class reservoir_Linear(nn.Linear):
         bias: bool = False,
         activation=None,
         weight_init=xavier_uniform_,
-        #bias_init=constant_,
+        bias_init=constant_,
         mean=0,
         std=1.0,
     ) -> None:
@@ -43,7 +43,7 @@ class reservoir_Linear(nn.Linear):
         """
         self.activation = activation
         self.weight_init = weight_init
-        self.bias_init = bias_init
+        #self.bias_init = bias_init
         self.mean = mean
         self.std = std
 
