@@ -21,10 +21,10 @@ class reservoir_Linear(nn.Linear):
         self,
         in_features: int,
         out_features: int,
-        bias: bool = True,
+        bias: bool = False,
         activation=None,
         weight_init=xavier_uniform_,
-        bias_init=constant_,
+        #bias_init=constant_,
         mean=0,
         std=1.0,
     ) -> None:
