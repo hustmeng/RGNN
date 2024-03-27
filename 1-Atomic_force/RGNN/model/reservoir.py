@@ -127,9 +127,9 @@ class NodeUpdate(nn.Module):
             4*n_node_feature + 4*n_edge_feature, 2 * n_node_feature, activation=None,
         )
         self.fc.weight.requires_grad=False
-        self.fc.bias.requires_grad=False
+        #self.fc.bias.requires_grad=False
         self.fc_2.weight.requires_grad=False
-        self.fc_2.bias.requires_grad=False
+        #self.fc_2.bias.requires_grad=False
         self.sigmoid = nn.Sigmoid()
         self.tanh = nn.Tanh()
         self.bn = nn.BatchNorm1d(n_node_feature)
@@ -228,9 +228,9 @@ class EdgeUpdate(nn.Module):
         self.bn_two_body = nn.BatchNorm1d(n_edge_feature)
         
         self.fc_two_body.weight.requires_grad=False
-        self.fc_two_body.bias.requires_grad=False
+        #self.fc_two_body.bias.requires_grad=False
         self.fc_two_body_2.weight.requires_grad=False
-        self.fc_two_body_2.bias.requires_grad=False
+        #self.fc_two_body_2.bias.requires_grad=False
         
         self.get_node_k = GetNodeK()
         self.get_edge_jk = GetEdgeJK()
@@ -247,9 +247,9 @@ class EdgeUpdate(nn.Module):
         )
 
         self.fc_three_body.weight.requires_grad=False
-        self.fc_three_body.bias.requires_grad=False
+        #self.fc_three_body.bias.requires_grad=False
         self.fc_three_body_2.weight.requires_grad=False
-        self.fc_three_body_2.bias.requires_grad=False
+        #self.fc_three_body_2.bias.requires_grad=False
 
         self.relu = nn.ReLU()
         self.sigmoid = nn.Sigmoid()
