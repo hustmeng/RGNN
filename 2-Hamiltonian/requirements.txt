@@ -6,6 +6,7 @@ NumPy = 1.25.2
 SciPy
 PyTorch = 2.1.1
 PyTorch Geometric = 2.4.0
+torch-scatter  =   2.1.2
 e3nn = 0.5.1
 pymatgen= 2023.11.12
 h5py = 3.10.0
