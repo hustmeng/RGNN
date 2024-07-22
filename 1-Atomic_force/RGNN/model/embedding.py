@@ -30,7 +30,8 @@ class NodeEmbedding(nn.Embedding):
         embedding_dim: int,
     ) -> None:
         super().__init__(num_embeddings=100, embedding_dim=embedding_dim, padding_idx=0)
-
+        nn.init.normal_(self.weight)
+        self.weight.requires_grad = False
     def forward(self, inputs: Tensor) -> Tensor:
         """
         Compute layer output.
